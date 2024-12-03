@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selecter</title>
+    <style>
+        /* div{
+            background-color: red;
+        } */
+        .red{
+            background-color: brown;
+        }
+        #green{
+            background-color: green;
+        }
+        div > p{
+            background-color: yellow;
+            color: red;
+        }
+        div p{
+            background-color: yellow;
+            color: red;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color: red;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: yellow;
+        }
+        /* a:hover{
+            color: red;
+        } */
+
+    </style>
+</head>
+<body>
+    <div>
+        I am div
+    </div>
+    <div class="red">
+        I am class div
+    </div>
+    <div id="green">
+        I am id div
+    </div>
+    <div>
+        <p>i am child in div</p>
+    </div>
+    <div>
+        <article>
+            <p>
+                i am descendent
+            </p>
+        </article>
+    </div>
+    <div class="link">
+        <a href="https://www.google.com">Go to Google</a>
+        <a href="https://www.instagram.com">Go to Instagram</a>
+    </div>
+</body>
+</html>
