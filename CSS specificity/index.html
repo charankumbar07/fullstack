@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+</head>
+<style>
+    h1 {
+        color: aqua;
+    }
+
+    .yellow {
+        color: yellow;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .pink {
+        color: pink;
+    }
+
+    [data-x] {
+        color: green;
+    }
+</style>
+
+<body>
+    <h1 class="yellow" class="red" class="pink" data-x="">CSS Specificity</h1>
+</body>
+
+</html>
