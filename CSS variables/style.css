@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --color: rgb(234, 216, 58);
+    --sec: rgb(244, 242, 153);
+    --defpad: 10px;
+    --defmar: 5px;
+}
+.box {
+    background-color: var(--color);
+}
+ul {
+    display: flex;
+}
+ul li {
+    /* padding: 10px; */
+    list-style-type: none;
+    padding: var(--defpad);
+    margin: var(--defmar);
+}
+.box1 {
+    background-color: var(--sec);
+}
