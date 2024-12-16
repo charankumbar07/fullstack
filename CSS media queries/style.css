@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+}
+@media screen and (orientation: portrait){
+    body{
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width:455px){
+    body{
+        background-color: blue;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+}
+.box{
+    background-color: steelblue;
+    width: 344px;
+    height: 344px;
+    padding: 3px;
+    margin: 3px;
+}
+.boxes{
+    display: flex;
+    width: 1080px;
+    height: 600px;
+}
