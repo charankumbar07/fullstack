@@ -1,0 +1,37 @@
+.box{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+
+    /* flex-wrap: wrap; */
+    
+    /* flex-flow: row wrap; */
+
+}
+.item{
+    background-color: tomato;
+    height: 92px;
+    width: 92px;
+    margin: 5px;
+    flex-grow: 1;
+}
+/* .order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+} */
+.order1{
+    flex-grow: 2;
+    flex-shrink: 2;
+    /* align-self:flex-start; */
+}
+/* .order2{
+    align-self:flex-end;
+} */
