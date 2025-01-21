@@ -1,0 +1,17 @@
+.container {
+    height: 666px;
+    width: 866px;
+    background-color: burlywood;
+    background-image: url(https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-clip: border-box;
+}
+
+/* img {
+    width: 444px;
+    height: 444px;
+    object-fit: contain;
+    object-position: left top;
+    object-position: right bottom;
+} */
