@@ -1,0 +1,45 @@
+.container {
+    background-color: rgba(15, 15, 15, 0.925);
+    width: 50vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.image img {
+    border-radius: 5px;
+}
+
+.image {
+    position: relative;
+}
+
+.capsul {
+    position: absolute;
+    z-index: 10;
+    bottom: 3px;
+    right: 5px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.details h2,
+p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.details {
+    padding-left: 10px;
+    position: relative;
+    bottom: 15px;
+}
