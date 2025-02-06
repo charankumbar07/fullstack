@@ -43,3 +43,15 @@ h2 {
     position: relative;
     bottom: 15px;
 }
+#btn{
+    background-color: rgba(58, 59, 59, 0.753);
+    padding: 24px 44px;
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+}
