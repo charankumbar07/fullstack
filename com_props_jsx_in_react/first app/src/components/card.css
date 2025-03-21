@@ -1,0 +1,10 @@
+.card{
+    overflow: hidden;
+    border: 2px solid black;
+    width: 20vw;
+    height: 300px;
+    margin: 20px;
+}
+img{
+    width: 310px;
+}
